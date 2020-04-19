@@ -13,8 +13,9 @@ public class CameraRig : MonoBehaviour
     {
         Sequence seq = DOTween.Sequence();
         seq.Append(y_axis.DOMove(target.position, moveTime));
-        seq.Join(y_axis.DORotate(new Vector3(0f, target.rotation.eulerAngles.y, 0f), moveTime));
-        seq.Join(x_axis.DOLocalRotate(new Vector3(target.rotation.eulerAngles.x, 0f, 0f), moveTime));
+        seq.Join(x_axis.DOMove(target.position, moveTime));
+        seq.Join(y_axis.DORotate(new Vector3(target.rotation.eulerAngles.x, target.rotation.eulerAngles.y, 0f), moveTime));
+        //seq.Join(x_axis.DOLocalRotate(new Vector3(target.rotation.eulerAngles.x, 0f, 0f), moveTime));
 
         //Camera.main.transform.position = cameraPosition.position;
         //Camera.main.transform.rotation = cameraPosition.rotation;
