@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Camera\CameraRig.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Interaction\Interactible.cs" />
+    <Compile Include="Assets\Scripts\Interaction\Reactors\AniDriver.cs" />
     <Compile Include="Assets\Scripts\Interaction\Reactors\ColorReactor.cs" />
     <Compile Include="Assets\Scripts\Interaction\Reactors\StateReactor.cs" />
     <Compile Include="Assets\Scripts\Interaction\Switcher.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="Assets\Scripts\Nodes\Prop.cs" />
     <Compile Include="Assets\Scripts\Nodes\Waypoint.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+    <Compile Include="Assets\Scripts\WalnutPlacer.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
