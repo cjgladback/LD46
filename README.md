@@ -8,16 +8,16 @@ To-do:
 - Clicks trigger animations
 - Camera setup for continuous scroll or separate scenes with transition
 - Assets
-  - Cat
-    - Pounce
-    - Run
+  - ~~Cat~~ textures
+    - ~~Pounce~~
+    - ~~Run~~
     - Sit
     - Scratch
     - Jump up
     - Jump down
     - Yawn
     - Sleep
-  - Walnut
+  - ~~Walnut~~ textures
   - Branch
   - Stick
   - Bush

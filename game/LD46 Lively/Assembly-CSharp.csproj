@@ -73,6 +73,9 @@
     <Compile Include="Assets\Scripts\Camera\CameraRig.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\Interaction\Interactible.cs" />
+    <Compile Include="Assets\Scripts\Interaction\Reactors\ColorReactor.cs" />
+    <Compile Include="Assets\Scripts\Interaction\Reactors\StateReactor.cs" />
+    <Compile Include="Assets\Scripts\Interaction\Switcher.cs" />
     <Compile Include="Assets\Scripts\Nodes\Location.cs" />
     <Compile Include="Assets\Scripts\Nodes\Node.cs" />
     <Compile Include="Assets\Scripts\Nodes\Prop.cs" />
