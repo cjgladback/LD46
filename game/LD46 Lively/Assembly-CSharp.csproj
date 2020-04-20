@@ -83,6 +83,8 @@
     <Compile Include="Assets\Scripts\Nodes\Waypoint.cs" />
     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\Scripts\WalnutPlacer.cs" />
+    <Compile Include="Assets\Scripts\WalnutShaker.cs" />
+    <Compile Include="Assets\Scripts\agentScript.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">

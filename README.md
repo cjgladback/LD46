@@ -18,11 +18,11 @@ To-do:
     - Yawn
     - Sleep
   - ~~Walnut~~ textures
-  - Branch
-  - Stick
-  - Bush
-  - Flat rock (and others)
-  - Cricket
+  - ~~Branch~~
+  - ~~Stick~~
+  - ~~Bush~~
+  - ~~Flat rock (and others)~~
+  - ~~Cricket~~
     - Hop
   - Squirrel
     - Steal
@@ -34,3 +34,11 @@ To-do:
 - Sounds can be layered up
 - UI includes success and boredom indications
 - Start menu included (button to be scratched to unleash the walnut to start with? volume settings?)
+
+Todo essentials:
+- Make target manager.
+- Control activation and deactivation of each walnut locator.
+- Make UI - right click and left click images based on level in hierarchy (Waypoint vs Location vs Prop w/o Interactible)
+- Count up Bored for each non-useful interactible; end game when Bored exceeds limit.
+- Get texture on Terrain!
+- Good ending UI clarity
