@@ -6,6 +6,14 @@ public class Switcher : Interactible
 {
 
     public bool state;
+    public CrouchAlways crouch;
+    public bool good;
+
+    public MoveStuff move;
+
+    //public Transform walnutTarget;
+    //public Transform switcherTarget;
+    //public Transform catTarget;
 
     //event setup
     public delegate void OnStateChange();
@@ -20,10 +28,14 @@ public class Switcher : Interactible
             Change();
         }
 
-        //if (GetComponent<StateReactor>() != null)
+        crouch.Crouch(good);
+
+        ////if we could just get the darn game working, here are the actual reaction thoughts
+        //if (good == true)
         //{
-        //    GetComponent<StateReactor>().React();
+        //    move.AwayWeGo(walnutTarget, switcherTarget, catTarget);
         //}
+
     }
 
 }

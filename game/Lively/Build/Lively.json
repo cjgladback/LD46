@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "LD46 Lively",
+"productVersion": "0.1",
+"dataUrl": "Lively.data.unityweb",
+"wasmCodeUrl": "Lively.wasm.code.unityweb",
+"wasmFrameworkUrl": "Lively.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.3.7f1"
+}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class agentScript : MonoBehaviour
+public class AgentScript : MonoBehaviour
 {
     public Transform target;
     NavMeshAgent agent;

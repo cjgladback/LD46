@@ -11,7 +11,15 @@ public abstract class Node : MonoBehaviour
     [HideInInspector]
     public Collider col;
 
-    // Start is called before the first frame update
+    
+
+    public bool startedYet;
+
+    private void Start()
+    {
+        startedYet = false;
+    }
+
     void Awake ()
     {
         col = GetComponent<Collider>();
@@ -63,5 +71,27 @@ public abstract class Node : MonoBehaviour
                 node.col.enabled = false;
             }
         }
+        if (col != null)
+        {
+            col.enabled = false;
+        }
+
+        //check if Start message is still there
+        if (startedYet == true)
+        {
+            GameObject canvas = GameObject.FindGameObjectWithTag("startInstruction");
+            RemoveChildren(canvas);
+            startedYet = false;
+        }
     }
+
+    void RemoveChildren(GameObject clearCanvas)
+    {
+        int childCount = clearCanvas.transform.childCount;
+        for (int i = childCount - 1; i >= 0; --i)
+        {
+            GameObject.Destroy(clearCanvas.transform.GetChild(i).gameObject);
+        }
+    }
+
 }

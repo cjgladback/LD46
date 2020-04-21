@@ -8,10 +8,8 @@ public class WalnutPlacer : MonoBehaviour
 {
     
     public float walnutFall;
-    void Update()
+    void Awake()
     {
-
-        
         //NavMeshAgent agent = GetComponent("NavMeshAgent") as NavMeshAgent;
 
         NavMeshHit closestHit;

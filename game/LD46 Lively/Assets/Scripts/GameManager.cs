@@ -19,13 +19,13 @@ public class GameManager : MonoBehaviour
     public CameraRig rig;
 
     //vars relating to lighting changes
-    public float normalLight;
-    public float lowLight;
-    public float highLight;
+    //public float normalLight;
+    //public float lowLight;
+    //public float highLight;
 
-    public GameObject[] inLights;
-    public Light lt;
-    public float brightness;
+    //public GameObject[] inLights;
+    //public Light lt;
+    //public float brightness;
 
     //look up singleton in future to improve this bad one
     private void Awake()

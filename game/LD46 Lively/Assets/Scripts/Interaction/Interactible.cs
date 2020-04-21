@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Prop))]
+
 public abstract class Interactible : MonoBehaviour
 {
     // Start is called before the first frame update
